@@ -6,7 +6,6 @@
 """
 
 import argparse
-import string
 
 
 BASES = {**{str(i): i for i in range(2, 37)}, "bin": 2, "dec": 10, "oct": 12, "hex": 16}
